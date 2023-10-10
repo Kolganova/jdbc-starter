@@ -19,6 +19,9 @@ public class Ticket {
         this.cost = cost;
     }
 
+    public Ticket() {
+    }
+
     public Long getId() {
         return id;
     }

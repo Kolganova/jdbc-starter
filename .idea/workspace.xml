@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8d0332e-b5b3-41a6-9f16-3564c265dc90" name="Changes" comment="*">
-      <change afterPath="$PROJECT_DIR$/src/com/dmdev/jdbc/starter/DaoRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/jdbc/starter/dao/Dao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/jdbc/starter/dao/FlightDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/jdbc/starter/dto/TicketFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dmdev/jdbc/starter/entity/Flight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/ac7d8aa2-6dbf-46e5-9e83-792027a9c069.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ac7d8aa2-6dbf-46e5-9e83-792027a9c069.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dmdev/jdbc/starter/DaoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/jdbc/starter/DaoRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dmdev/jdbc/starter/dao/TicketDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/jdbc/starter/dao/TicketDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dmdev/jdbc/starter/entity/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dmdev/jdbc/starter/entity/Ticket.java" afterDir="false" />
     </list>
@@ -19,7 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -61,6 +67,10 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dmdev.jdbc.starter.entity" />
+      <recent name="com.dmdev.jdbc.starter.dto" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources" />
     </key>
@@ -140,7 +150,7 @@
       <workItem from="1696937509393" duration="82000" />
       <workItem from="1696937597025" duration="28000" />
       <workItem from="1696937630400" duration="986000" />
-      <workItem from="1696938624517" duration="2961000" />
+      <workItem from="1696938624517" duration="11234000" />
     </task>
     <task id="LOCAL-00001" summary="*">
       <option name="closed" value="true" />
@@ -166,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696931230256</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="*">
+      <option name="closed" value="true" />
+      <created>1696943139966</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696943139966</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
